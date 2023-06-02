@@ -13,9 +13,9 @@ export default function Gallery(){
         <div className={s.contiene}>
             <h4 className={s.subtitle}>Descubrí nuestro espacio...</h4>
             <section className={s.section1}>
+                <img className={s.styleImg3} src={img3} alt="img not found" />
                 <img className={s.styleImg1} src={img1} alt="img not found" />
                 <img className={s.styleImg2} src={img2} alt="img not found" />
-                <img className={s.styleImg3} src={img3} alt="img not found" />
                 <img className={s.styleImg4} src={img4} alt="img not found" />
             </section>
             <section className={s.section2}>
