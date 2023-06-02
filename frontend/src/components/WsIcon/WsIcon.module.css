@@ -1,0 +1,26 @@
+.wsicon{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 9999;
+    height: 80px;
+    width: 80px;
+}
+
+.wsicon:hover{
+    height: 90px;
+    width: 90px;
+}
+
+.wsicon i{
+    margin-top: 2px;
+}

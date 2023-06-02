@@ -1,0 +1,21 @@
+.container{
+    background-color: rgba(183, 159, 159, 0.39);
+    height: auto;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+
+.socialmedia{
+    display: flex;
+}
+
+.iconos{
+    padding: 0 9px 0 9px;  
+}
+
+.derechos{
+    font-size: 14px;
+    margin-top: -15px
+}
