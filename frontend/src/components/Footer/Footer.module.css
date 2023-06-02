@@ -15,6 +15,11 @@
     padding: 0 9px 0 9px;  
 }
 
+.icon{
+    height: 35px;
+    width: 35px;
+}
+
 .derechos{
     font-size: 14px;
     margin-top: -15px
