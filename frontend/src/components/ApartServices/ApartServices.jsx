@@ -42,8 +42,10 @@ export default function ApartServices() {
             <div className={s.cuadro}>
                 <img className={s.iconos} src={pileta} alt="img not found" />
                 <h1>Pileta </h1>
-                <p>1: Piscina “infinita” en terraza <br/>
-                        2: El edificio cuenta con una pileta en el 8vo piso, la misma tiene solárium y reposeras decorada con un hermoso jardín vertical</p>
+                <p>Piscina “infinita” en terraza <br/></p>
+                <Link to='/pileta'>
+                    <button className={s.btn}>ver más</button>
+                </Link>
             </div>     
 
 
