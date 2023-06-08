@@ -20,7 +20,7 @@ export default function Home (){
             <section className={s.firstpart}>
                 <img className={s.image} src={image} alt="img not found" />
                 <div className={s.introinfo}>
-                    <h2 >El confort que buscás...</h2>                    
+                    <h2 >El confort que buscas...</h2>                    
                 </div>
             </section>
             <ApartamentStyle/>

@@ -14,6 +14,7 @@ export default function ApartServices() {
     <div className={s.contenedorCompleto} >
         <h1 className={s.titulo}>NUESTROS SERVICIOS</h1>
         <section className={s.contiene}>
+           {/* Primer Servicio */}
             <div className={s.cuadro}>
                 <img className={s.iconos} src={cama} alt="img not found" />
                 <h1>Habitación </h1>
@@ -24,23 +25,38 @@ export default function ApartServices() {
                         <button className={s.btn}>ver más</button>
                     </Link>    
             </div>            
+
+
+           {/* Segundo Servicio */}
             <div className={s.cuadro}>
                 <img className={s.iconos} src={bano} alt="img not found" />
                 <h1>Baño </h1>
-                <p>1: 1 baño completo y 1 toilette <br/> 2: El departamento dispone de un baño completo con bañera, el servicio incluye elementos de tocador y un amplio toilett</p>
+                <p>1 baño completo y 1 toilette </p>
+                <Link to='/baño'>
+                    <button className={s.btn}>ver más</button>
+                </Link>
             </div>            
+
+
+           {/* Tercer Servicio */}
             <div className={s.cuadro}>
                 <img className={s.iconos} src={pileta} alt="img not found" />
                 <h1>Pileta </h1>
                 <p>1: Piscina “infinita” en terraza <br/>
                         2: El edificio cuenta con una pileta en el 8vo piso, la misma tiene solárium y reposeras decorada con un hermoso jardín vertical</p>
-            </div>            
+            </div>     
+
+
+           {/* Cuarto Servicio */}
             <div className={s.cuadro}>
                 <img className={s.iconos} src={pesas} alt="img not found" />
                 <h1>Gimnasio </h1>
                 <p>1: gimnasio equipado <br/>2: En la terraza se encuentra el
 gimnasio. este cuenta con bicicleta, máquina elíptica, banco inclinado, pelota de yoga, mancuernas, etc. Para mayor confort también posee aire acondicionado y amplios ventanales.</p>
             </div>            
+
+            
+           {/* Quinto Servicio */}
             <div className={s.cuadro}>
                 <img className={s.iconos} src={lavarropas} alt="img not found" />
                 <h1>Otros... </h1>

@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './components/Home/Home.jsx'
 import Habitacion from './components/Habitacion/Habitacion.jsx';
+import Bathroom from './components/Bathroom/Bathroom.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <Route exact path='/' component={Home}/>
           <Route exact path='/home' component={Home}/>
           <Route path='/habitacion' component={Habitacion}/>
+          <Route path='/baño' component={Bathroom}/>
         </Switch>
       </div>
     </BrowserRouter>

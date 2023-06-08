@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from '../Menu/Menu'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import image1 from '../../utils/IMG_0628.png'
 import image2 from '../../utils/IMG_0592.png'
 import image3 from '../../utils/IMG_0588.png'
@@ -47,10 +48,10 @@ export default function Habitacion() {
         <div className={s.contiene}>
             <h4 className={s.subtitle}>Primera habitación</h4>
             <section className={s.section1}>
+                <img className={s.styleImg4} src={image6} alt="img not found" />
                 <img className={s.styleImg1} src={image3} alt="img not found" />
                 <img className={s.styleImg2} src={image4} alt="img not found" />
                 <img className={s.styleImg3} src={image5} alt="img not found" />
-                <img className={s.styleImg4} src={image6} alt="img not found" />
             </section>
 
             <h4 className={s.subtitle}>Segunda habitación</h4>
@@ -60,6 +61,11 @@ export default function Habitacion() {
                 <img className={s.styleImg7} src={image9} alt="img not found" />
                 <img className={s.styleImg8} src={image10} alt="img not found" />
             </section>
+        </div>
+        <div className={s.btnHome}>
+            <Link to='/'>
+                <button>Volver a página de inicio</button>
+            </Link>
         </div>
         <Footer/>
         <WsIcon/>
