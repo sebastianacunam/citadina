@@ -19,7 +19,7 @@ export default function ApartServices() {
                 <img className={s.iconos} src={cama} alt="img not found" />
                 <h1>Habitación </h1>
                 <p> 
-                    2 confortables habitaciones 
+                    2 confortables habitaciones.
                 </p>
                     <Link to='/habitacion'>
                         <button className={s.btn}>ver más</button>
@@ -31,7 +31,7 @@ export default function ApartServices() {
             <div className={s.cuadro}>
                 <img className={s.iconos} src={bano} alt="img not found" />
                 <h1>Baño </h1>
-                <p>1 baño completo y 1 toilette </p>
+                <p>1 baño completo y 1 toilette.</p>
                 <Link to='/baño'>
                     <button className={s.btn}>ver más</button>
                 </Link>
@@ -42,7 +42,7 @@ export default function ApartServices() {
             <div className={s.cuadro}>
                 <img className={s.iconos} src={pileta} alt="img not found" />
                 <h1>Pileta </h1>
-                <p>Piscina “infinita” en terraza <br/></p>
+                <p>Piscina “infinita” en terraza.<br/></p>
                 <Link to='/pileta'>
                     <button className={s.btn}>ver más</button>
                 </Link>
@@ -53,8 +53,10 @@ export default function ApartServices() {
             <div className={s.cuadro}>
                 <img className={s.iconos} src={pesas} alt="img not found" />
                 <h1>Gimnasio </h1>
-                <p>1: gimnasio equipado <br/>2: En la terraza se encuentra el
-gimnasio. este cuenta con bicicleta, máquina elíptica, banco inclinado, pelota de yoga, mancuernas, etc. Para mayor confort también posee aire acondicionado y amplios ventanales.</p>
+                <p>Gimnasio equipado.</p>
+                <Link to='/gimnasio'>
+                    <button className={s.btn}>ver más</button>
+                </Link>
             </div>            
 
             
@@ -62,8 +64,10 @@ gimnasio. este cuenta con bicicleta, máquina elíptica, banco inclinado, pelota
             <div className={s.cuadro}>
                 <img className={s.iconos} src={lavarropas} alt="img not found" />
                 <h1>Otros... </h1>
-                <p>El departamento cuenta con microondas, tostadora, pava eléctrica y lavarropas. El uso de este último es para el lavado de ropa personal, no así para ropa blanca. Se ofrece un servicio de limpieza y/o recambio de blancos con costo adicional. <br/>
-                En la terraza se puede hacer uso de el Salón de Uso Múltiple. Hasta 4 personas es gratuito, más de 4 personas tiene costo adicional. Está equipado con heladera, vajilla y asadores</p>
+                <p>Equipamento adicional del departamento.</p>
+                <Link to='/otros'>
+                    <button className={s.btn}>ver más</button>
+                </Link>
             </div>            
         </section>
     </div>

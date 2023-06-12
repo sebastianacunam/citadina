@@ -6,6 +6,7 @@ import Gallery from '../Gallery/Gallery'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
 import WsIcon from '../WsIcon/WsIcon'
+import Premium from '../Premium/Premium'
 
 //Images n' css
 import image from '../../utils/livingroom.png'
@@ -26,6 +27,7 @@ export default function Home (){
             <ApartamentStyle/>
             <ApartServices/>
             <Gallery/>
+            <Premium/>
             <Contact/>
             <Footer/>
             <WsIcon/>
