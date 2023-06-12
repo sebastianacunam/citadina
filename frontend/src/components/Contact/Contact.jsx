@@ -37,7 +37,7 @@ export default function Contact() {
     }
 
     return (
-        <div>
+        <div id='contacto'>
             <h1 className={s.titulo}>Contactanos</h1>
             <div className={s.container}>
                 <form className={s.cform} ref={formRef} onSubmit={(e)=>handleSubmit(e)}>

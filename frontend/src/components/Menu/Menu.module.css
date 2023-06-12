@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .bgMenu{
@@ -28,7 +30,6 @@
     /* margin-top: 80px; */
     height: 190px;
     width: 190px;
-
 }
 
 .navMenu{

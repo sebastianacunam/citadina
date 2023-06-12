@@ -1,6 +1,7 @@
 import s from '../Menu/Menu.module.css'
 import logo from '../../utils/logosinfondo.png'
 
+
 export default function Menu (){
     return(
         <div className={s.menuContainer}>
@@ -13,11 +14,21 @@ export default function Menu (){
                 <nav className={s.navMenu}>
                     <div>
                         <ul>
-                            <li>Inicio</li>
-                            {/* <li>Nosotros</li> */}
-                            <li>Servicios</li>
-                            {/* <li>Clientes</li> */}
-                            <li>Contacto</li>
+                            <li>
+                                <a href='/'>Inicio</a>
+                            </li>
+                            
+                            <li>
+                                <a href='/#servicios'>
+                                    Servicios
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href='/#contacto'>
+                                    Contacto
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

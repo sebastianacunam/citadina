@@ -4,3 +4,7 @@
     align-items: center;
     background-color: rgba(183, 159, 159, 0.39);
 }
+
+.texto{
+    font-family: 'Poppins', sans-serif;
+}

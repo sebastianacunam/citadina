@@ -51,9 +51,9 @@ export default function Bathroom() {
 
         </div>
         <div className={s.btnHome}>
-            <Link to='/'>
-                <button>Volver a página de inicio</button>
-            </Link>
+          <a href='/#servicios'>
+            <button>Volver a página de inicio</button>
+          </a>
         </div>
         <Footer/>
         <WsIcon/>

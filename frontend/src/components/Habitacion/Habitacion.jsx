@@ -63,9 +63,9 @@ export default function Habitacion() {
             </section>
         </div>
         <div className={s.btnHome}>
-            <Link to='/'>
+            <a href='/#servicios'>
                 <button>Volver a página de inicio</button>
-            </Link>
+            </a>
         </div>
         <Footer/>
         <WsIcon/>

@@ -11,7 +11,7 @@ import pileta from '../../utils/pileta.png'
 
 export default function ApartServices() {
   return (
-    <div className={s.contenedorCompleto} >
+    <div className={s.contenedorCompleto} id='servicios'>
         <h1 className={s.titulo}>NUESTROS SERVICIOS</h1>
         <section className={s.contiene}>
            {/* Primer Servicio */}
