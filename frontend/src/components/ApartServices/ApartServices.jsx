@@ -24,6 +24,7 @@ export default function ApartServices() {
                     <Link to='/habitacion'>
                         <button className={s.btn}>ver más</button>
                     </Link>    
+
             </div>            
 
 
@@ -32,9 +33,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={bano} alt="img not found" />
                 <h1>Baño </h1>
                 <p>1 baño completo y 1 toilette.</p>
-                <Link to='/baño'>
-                    <button className={s.btn}>ver más</button>
-                </Link>
+                    <Link to='/baño'>
+                        <button className={s.btn}>ver más</button>
+                    </Link>
             </div>            
 
 
@@ -43,9 +44,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={pileta} alt="img not found" />
                 <h1>Pileta </h1>
                 <p>Piscina “infinita” en terraza.<br/></p>
-                <Link to='/pileta'>
-                    <button className={s.btn}>ver más</button>
-                </Link>
+                    <Link to='/pileta'>
+                        <button className={s.btn}>ver más</button>
+                    </Link>
             </div>     
 
 
@@ -54,9 +55,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={pesas} alt="img not found" />
                 <h1>Gimnasio </h1>
                 <p>Gimnasio equipado.</p>
-                <Link to='/gimnasio'>
-                    <button className={s.btn}>ver más</button>
-                </Link>
+                    <Link to='/gimnasio'>
+                        <button className={s.btn}>ver más</button>
+                    </Link>
             </div>            
 
             
@@ -65,9 +66,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={lavarropas} alt="img not found" />
                 <h1>Otros... </h1>
                 <p>Equipamento adicional del departamento.</p>
-                <Link to='/otros'>
-                    <button className={s.btn}>ver más</button>
-                </Link>
+                    <Link to='/otros'>
+                        <button className={s.btn}>ver más</button>
+                    </Link>
             </div>            
         </section>
     </div>

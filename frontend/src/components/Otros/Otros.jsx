@@ -12,6 +12,7 @@ import image4 from '../../utils/IMG_0729.png'
 import image5 from '../../utils/IMG_0761.png'
 import image6 from '../../utils/IMG_0772.png'
 
+
 export default function Otros() {
     return (
         <div>
@@ -51,11 +52,11 @@ export default function Otros() {
                 </section>
     
             </div>
-            <div className={s.btnHome}>
-              <a href='/#servicios'>
-                  <button>Volver a página de inicio</button>
-              </a>
-            </div>
+            <div className={s.divBtn}>
+            <a href='/#servicios'>
+                <div className={s.btnHome}>Volver a página de inicio</div>
+            </a>
+        </div>
             <Footer/>
             <WsIcon/>
     </div>

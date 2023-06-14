@@ -51,11 +51,11 @@ export default function Gym() {
                 </section>
     
             </div>
-            <div className={s.btnHome}>
-              <a href='/#servicios'>
-                  <button>Volver a página de inicio</button>
-              </a>
-            </div>
+            <div className={s.divBtn}>
+            <a href='/#servicios'>
+                <div className={s.btnHome}>Volver a página de inicio</div>
+            </a>
+        </div>
             <Footer/>
             <WsIcon/>
     </div>

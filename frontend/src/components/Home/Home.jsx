@@ -16,7 +16,7 @@ import s from '../Home/Home.module.css'
 //Component
 export default function Home (){
     return (
-        <div>
+        <div className={s.background}>
             <Menu/>
             <section className={s.firstpart}>
                 <img className={s.image} src={image} alt="img not found" />

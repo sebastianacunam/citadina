@@ -1,8 +1,9 @@
 import React from 'react'
 import Menu from '../Menu/Menu'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
-import image1 from '../../utils/IMG_0658.png'
-import image2 from '../../utils/IMG_0657.png'
+
+import image1 from '../../utils/toilett.jpg'
+import image2 from '../../utils/principalbano.jpg'
 import image3 from '../../utils/IMG_0646.png'
 import image4 from '../../utils/IMG_0651.png'
 import image5 from '../../utils/IMG_0647.png'
@@ -17,7 +18,7 @@ export default function Bathroom() {
         <Menu/>
         <div className={s.h}>
           <section className={s.hleft}>
-              <img className={s.img} src={image1} alt="" />
+              <img className={s.img1} src={image1} alt="" />
           </section>
           <section className={s.hright}>
               <div className={s.texto}>
@@ -36,7 +37,7 @@ export default function Bathroom() {
               </div>
           </section>
           <section className={s.hleft}>
-              <img className={s.img} src={image2} alt="" />
+              <img className={s.img1} src={image2} alt="" />
           </section>
         </div>
 
@@ -50,10 +51,10 @@ export default function Bathroom() {
             </section>
 
         </div>
-        <div className={s.btnHome}>
-          <a href='/#servicios'>
-            <button>Volver a página de inicio</button>
-          </a>
+        <div className={s.divBtn}>
+            <a href='/#servicios'>
+                <div className={s.btnHome}>Volver a página de inicio</div>
+            </a>
         </div>
         <Footer/>
         <WsIcon/>

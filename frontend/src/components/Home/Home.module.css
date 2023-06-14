@@ -28,3 +28,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@media (max-width:560px){
+    .background{
+        background-color: white;
+    }
+    .firstpart{
+        display: none;
+    }
+}

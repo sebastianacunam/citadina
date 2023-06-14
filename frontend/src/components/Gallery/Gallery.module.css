@@ -5,6 +5,7 @@
     text-align: center;
     align-items: center;
     padding: 0 150px;
+    
 }
 
 .section1{
@@ -42,9 +43,33 @@
     border-radius: 3px;
 }
 
-
 .subtitle{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     /* margin: 30px 0 0 60px; */
+}
+
+@media (max-width:560px){
+    .contiene{
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 0 50px; 
+    }
+    .section1{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .section2{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .styleImg1, .styleImg2, .styleImg3, .styleImg4, .styleImg5, .styleImg6, .styleImg7, .styleImg8{
+        width: 400px;
+        margin: 10px 0 10px 0; 
+    }
+    .styleImg1:hover, .styleImg2:hover, .styleImg3:hover, .styleImg4:hover, .styleImg5:hover, .styleImg6:hover, .styleImg7:hover, .styleImg8:hover{
+        width: 400px;
+        margin: 10px 0 10px 0; 
+    }
 }

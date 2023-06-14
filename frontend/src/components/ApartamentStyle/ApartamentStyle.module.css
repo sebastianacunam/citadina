@@ -1,6 +1,8 @@
 .contiene{
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-evenly;
     align-items: center;
     margin: 70px 0 70px 0;
@@ -18,3 +20,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* @media (max-width:560px){
+    .contiene{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px 0 70px 0;
+    }
+} */

@@ -62,9 +62,9 @@ export default function Habitacion() {
                 <img className={s.styleImg8} src={image10} alt="img not found" />
             </section>
         </div>
-        <div className={s.btnHome}>
+        <div className={s.divBtn}>
             <a href='/#servicios'>
-                <button>Volver a página de inicio</button>
+                <div className={s.btnHome}>Volver a página de inicio</div>
             </a>
         </div>
         <Footer/>

@@ -6,7 +6,7 @@ import s from '../WsIcon/WsIcon.module.css'
 export default function WsIcon() {
   return (
     <a href="https://api.whatsapp.com/send?phone=91127338725" target="_blank" rel="noopener noreferrer" className={s.wsicon}>
-        <img src={ws} alt="imt not found" height="75px"/>
+        <img className={s.wsImg} src={ws} alt="imt not found"/>
     </a>
   )
 }

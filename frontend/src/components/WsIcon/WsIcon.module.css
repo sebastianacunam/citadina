@@ -21,6 +21,42 @@
     width: 90px;
 }
 
+.wsImg{
+    width: 60px;
+    height: 60px;
+}
+
 .wsicon i{
     margin-top: 2px;
+}
+
+@media (max-width:560px){
+    .wsicon{
+        position: fixed;
+        bottom: 90px;
+        right: 60px;
+        width: 30px;
+        height: 30px;
+        background-color: green;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        z-index: 9999;
+        height: 40px;
+        width: 40px;
+    }
+    
+    
+    .wsicon:hover{
+        height: 38px;
+        width: 38px;
+    }
+    
+    .wsImg{
+        width: 45px;
+        height: 45px;
+    }
 }
