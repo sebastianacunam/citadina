@@ -1,5 +1,7 @@
 import React, {useState, useRef} from 'react'
 import s from '../Contact/Contact.module.css'
+import emailjs from '@emailjs/browser'
+
 export default function Contact() {
 
     const formRef = useRef();
@@ -46,7 +48,7 @@ export default function Contact() {
                     <input className={s.cinput} type="" placeholder='Correo electrónico' name="mail" onChange={(e)=>handleChange(e)} value={input.mail}/>
                     <textarea className={s.ctextarea} rows="5" placeholder='Mensaje...' name="mensaje" onChange={(e)=>handleChange(e)} value={input.mensaje}></textarea>
                     <button className={s.cbtn}>Enviar</button>
-                    {done && <p className='p-submit'>I have received your message! I'll get in touch asap!</p>}
+                    {done && <p className='p-submit'>Recibí tu mensaje, nos comunicaremos en la mayor brevedad.</p>}
                 </form>
             </div>
         </div>
