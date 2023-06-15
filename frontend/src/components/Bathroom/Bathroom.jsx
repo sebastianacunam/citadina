@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from '../Menu/Menu'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+
 
 import image1 from '../../utils/toilett.jpg'
 import image2 from '../../utils/principalbano.jpg'

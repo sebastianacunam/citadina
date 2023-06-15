@@ -133,3 +133,70 @@
 .btnHome:active {
     transform: translateY(-1px);
   }
+
+  @media (max-width:560px){
+    .h{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .hdos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img{
+        height: 230px;
+        width: 350px;
+        border: 4px solid rgba(183, 159, 159, 0.39);
+        border-radius: 6px;
+    }
+
+    .img1{
+        width: 230px;
+        height: 350px;
+        border: 4px solid rgba(183, 159, 159, 0.39);
+        border-radius: 6px;
+    }
+
+    .contiene{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subtitle{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section1, .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .styleImg1, .styleImg2, .styleImg3, .styleImg4, .styleImg5, .styleImg6, .styleImg7, .styleImg8{
+        flex-grow: 1;
+        object-fit: contain;
+        width: 400px;
+        opacity: .8;
+        transition: .5s ease;
+        border-radius: 3px;
+        margin: 10px 0 10px 0; 
+    } 
+    
+    .styleImg1:hover, .styleImg2:hover, .styleImg3:hover, .styleImg4:hover, .styleImg5:hover, .styleImg6:hover, .styleImg7:hover, .styleImg8:hover{
+        cursor: crosshair;    
+        width: 450px;
+        opacity: 1;
+        filter: contrast(120%);
+        border-radius: 3px;
+        margin: 10px 0 10px 0; 
+    }
+}

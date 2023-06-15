@@ -51,25 +51,23 @@
 
 @media (max-width:560px){
     .contiene{
-        /* background-color: red; */
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 50px 50px 0 50px; 
     }
-    .section1{
+    .section1, .section2{
         display: flex;
-        flex-wrap: wrap;   
+        flex-direction: column;
     }
-    .section2{
-        display: flex;
-        flex-wrap: wrap;   
-    }
+
     .styleImg1, .styleImg2, .styleImg3, .styleImg4, .styleImg5, .styleImg6, .styleImg7, .styleImg8{
         width: 400px;
         margin: 10px 0 10px 0; 
+        object-fit: contain;
+        transition: .5s ease;
     }
     .styleImg1:hover, .styleImg2:hover, .styleImg3:hover, .styleImg4:hover, .styleImg5:hover, .styleImg6:hover, .styleImg7:hover, .styleImg8:hover{
-        width: 400px;
+        width: 450px;
         margin: 10px 0 10px 0; 
     }
 }
