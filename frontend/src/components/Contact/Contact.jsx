@@ -8,9 +8,10 @@ export default function Contact() {
     const [done, setDone] = useState(false)
 
     const [input, setInput] = useState({
-        name: "", 
-        telefono: "",
-        mail: "",
+        user_name: "", 
+        user_subject: "",
+        user_telefono: "",
+        user_email: "",
         mensaje: ""
     })
 
@@ -24,8 +25,8 @@ export default function Contact() {
     function handleSubmit(e){
         e.preventDefault();
 
-        if(input.name && input.telefono && input.mail && input.mensaje){
-            emailjs.sendForm('service_sa77uqu', 'template_pcy837p', formRef.current, 'NzGKT9oDPSFX-k57X')
+        if(input.user_name && input.user_telefono && input.user_email && input.mensaje && input.user_subject){
+            emailjs.sendForm('service_4g3syjj', 'template_aptb5en', formRef.current, 'LRYcNs_ftNzLFFP4y')
           .then((result) => {
               console.log(result.text);
               setDone(true)
@@ -43,10 +44,11 @@ export default function Contact() {
             <h1 className={s.titulo}>Contactanos</h1>
             <div className={s.container}>
                 <form className={s.cform} ref={formRef} onSubmit={(e)=>handleSubmit(e)}>
-                    <input className={s.cinput} type="" placeholder='Nombre y apellido' name="name" onChange={(e)=>handleChange(e)} value={input.name}/>                    
-                    <input className={s.cinput} type="" placeholder='Teléfono' name="telefono" onChange={(e)=>handleChange(e)} value={input.telefono}/>
-                    <input className={s.cinput} type="" placeholder='Correo electrónico' name="mail" onChange={(e)=>handleChange(e)} value={input.mail}/>
-                    <textarea className={s.ctextarea} rows="5" placeholder='Mensaje...' name="mensaje" onChange={(e)=>handleChange(e)} value={input.mensaje}></textarea>
+                    <input className={s.cinput} type='' placeholder='Nombre y apellido' name='user_name' onChange={(e)=>handleChange(e)} value={input.user_name}/>                    
+                    <input className={s.cinput} type='' placeholder='Asunto' name='user_subject' onChange={(e)=>handleChange(e)} value={input.user_subject}/>                    
+                    <input className={s.cinput} type='' placeholder='Teléfono' name='user_telefono' onChange={(e)=>handleChange(e)} value={input.user_telefono}/>
+                    <input className={s.cinput} type='' placeholder='Correo electrónico' name='user_email' onChange={(e)=>handleChange(e)} value={input.user_email}/>
+                    <textarea className={s.ctextarea} rows="5" placeholder='Mensaje...' name='mensaje' onChange={(e)=>handleChange(e)} value={input.mensaje}></textarea>
                     <button className={s.cbtn}>Enviar</button>
                     {done && <p className='p-submit'>Recibí tu mensaje, nos comunicaremos en la mayor brevedad.</p>}
                 </form>
