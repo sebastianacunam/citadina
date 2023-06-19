@@ -43,7 +43,7 @@ export default function Otros() {
             </div>
     
             <div className={s.contiene}>
-                <h4 className={s.subtitle}>Galería de fotos</h4>
+                <h4 className={s.subtitle}>Galería</h4>
                 <section className={s.section1}>
                     <img className={s.styleImg1} src={image3} alt="img not found" />
                     <img className={s.styleImg2} src={image4} alt="img not found" />

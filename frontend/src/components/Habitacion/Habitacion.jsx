@@ -36,7 +36,7 @@ export default function Habitacion() {
           <section className={s.hright}>
               <div className={s.texto}>
                 <h1 className={s.letrash1}>HABITACIÓN</h1>
-                <p className={s.letrasp}>La propiedad cuenta con una segunda habitación que dispone de 2 camas individuales de 2 mts de largo o una cama King. </p>
+                <p className={s.letrasp}>La propiedad cuenta con una segunda habitación que dispone de dos camas individuales de 2 mts de largo o una cama King. </p>
                 <p className={s.letrasp}>También cuenta con Tv por cable y App de Netflix; aire acondicionador frío/calor y amplio placard </p>
               </div>
           </section>

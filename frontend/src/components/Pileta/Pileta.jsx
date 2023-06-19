@@ -28,7 +28,7 @@ export default function Pileta() {
             </div>        
     
             <div className={s.contiene}>
-                <h4 className={s.subtitle}>Galería de fotos de la zona de la pileta</h4>
+                <h4 className={s.subtitle}>Galería</h4>
                 <section className={s.section1}>
                     <img className={s.styleImg4} src={image6} alt="img not found" />
                     <img className={s.styleImg1} src={image3} alt="img not found" />

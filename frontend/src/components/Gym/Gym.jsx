@@ -23,7 +23,7 @@ export default function Gym() {
               <section className={s.hright}>
                   <div className={s.texto}>
                     <h1 className={s.letrash1}>GIMNASIO</h1>
-                    <p className={s.letrasp}>En la terraza se encuentra el gimnasio. este cuenta con bicicleta, máquina elíptica, banco inclinado, pelota de yoga, mancuernas, etc. </p>
+                    <p className={s.letrasp}>En la terraza se encuentra el gimnasio. Este cuenta con bicicleta, máquina elíptica, banco inclinado, pelota de yoga, mancuernas, etc. </p>
                   </div>
               </section>
             </div>        
