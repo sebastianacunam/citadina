@@ -9,7 +9,7 @@ import s from '../ApartamentStyle/ApartamentStyle.module.css'
 export default function ApartamentStyle() {
   return (
     <div>
-        <h1 className={s.titulo}>EXPLORÁ</h1>
+        
         <section className={s.contiene}>
             <div><img className={s.image1} src={image1} alt="" /></div>
             <div><img className={s.image2} src={image2} alt="" /></div>
