@@ -21,9 +21,9 @@ export default function ApartServices() {
                 <p> 
                     2 confortables habitaciones.
                 </p>
-                    <Link to='/habitacion'>
+                    <a href='/habitacion'>
                         <button className={s.btn}>ver más</button>
-                    </Link>    
+                    </a>    
 
             </div>            
 
@@ -33,9 +33,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={bano} alt="img not found" />
                 <h1>Baño </h1>
                 <p>1 baño completo y 1 toilette.</p>
-                    <Link to='/baño'>
+                    <a href='/baño'>
                         <button className={s.btn}>ver más</button>
-                    </Link>
+                    </a>
             </div>            
 
 
@@ -44,9 +44,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={pileta} alt="img not found" />
                 <h1>Pileta </h1>
                 <p>Piscina “infinita” en terraza.<br/></p>
-                    <Link to='/pileta'>
+                    <a href='/pileta'>
                         <button className={s.btn}>ver más</button>
-                    </Link>
+                    </a>
             </div>     
 
 
@@ -55,9 +55,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={pesas} alt="img not found" />
                 <h1>Gimnasio </h1>
                 <p>Gimnasio equipado.</p>
-                    <Link to='/gimnasio'>
+                    <a href='/gimnasio'>
                         <button className={s.btn}>ver más</button>
-                    </Link>
+                    </a>
             </div>            
 
             
@@ -66,9 +66,9 @@ export default function ApartServices() {
                 <img className={s.iconos} src={lavarropas} alt="img not found" />
                 <h1>Otros... </h1>
                 <p>Equipamento adicional del departamento.</p>
-                    <Link to='/otros'>
+                    <a href='/otros'>
                         <button className={s.btn}>ver más</button>
-                    </Link>
+                    </a>
             </div>            
         </section>
     </div>
