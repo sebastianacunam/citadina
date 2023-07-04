@@ -49,25 +49,56 @@
     /* margin: 30px 0 0 60px; */
 }
 
-@media (max-width:560px){
+@media (max-width:1600px){
     .contiene{
         display: flex;
         flex-direction: column;
-        padding: 50px 50px 0 50px; 
+        flex-wrap: wrap;
+        padding: 0px 50px 0 50px; 
     }
+    
     .section1, .section2{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
     }
-
+    
     .styleImg1, .styleImg2, .styleImg3, .styleImg4, .styleImg5, .styleImg6, .styleImg7, .styleImg8{
-        width: 400px;
+        width: 430px;
         margin: 10px 0 10px 0; 
         object-fit: contain;
         transition: .5s ease;
     }
     .styleImg1:hover, .styleImg2:hover, .styleImg3:hover, .styleImg4:hover, .styleImg5:hover, .styleImg6:hover, .styleImg7:hover, .styleImg8:hover{
         width: 450px;
+        margin: 10px 0 10px 0; 
+    }
+}
+
+@media (max-width:720px){
+    .contiene{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px 50px 0 50px; 
+    }
+    
+    .section1, .section2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    .styleImg1, .styleImg2, .styleImg3, .styleImg4, .styleImg5, .styleImg6, .styleImg7, .styleImg8{
+        width: 320px;
+        margin: 10px 0 10px 0; 
+        object-fit: contain;
+        transition: .5s ease;
+    }
+    .styleImg1:hover, .styleImg2:hover, .styleImg3:hover, .styleImg4:hover, .styleImg5:hover, .styleImg6:hover, .styleImg7:hover, .styleImg8:hover{
+        width: 340px;
         margin: 10px 0 10px 0; 
     }
 }
